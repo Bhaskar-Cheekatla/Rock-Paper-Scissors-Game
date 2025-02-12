@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <!--Fontawesome-->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.min.css" integrity="sha512-QfDd74mlg8afgSqm3Vq2Q65e9b3xMhJB4GZ9OcHDVy1hZ6pqBJPWWnMsKDXM7NINoKqJANNGBuVRIpIJ5dogfA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!--Google Font-->
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' />
+    
+    
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="btn btn-success" id="rules" onclick="window.location.href='details.html'"><i class="fas fa-info-circle"></i> Rules</button>
+    <h1 id="greet">Play and Have Fun :)</h1>
+
+
+
+<div class="container">
+    <div class="scores">
+        <p>Computer :
+            <span id="computer_score">0</span>
+        </p>
+        <p>
+            You :
+            <span id="user_score">0</span>
+        </p>
+    </div>
+    <div class="weapons">
+        <button>
+            <i class="far fa-hand-rock"></i>
+        </button>
+        <button>
+            <i class="far fa-hand-paper"></i>
+        </button>
+        <button>
+            <i class="far fa-hand-scissors"></i>
+        </button>
+    </div>
+    <div class="details">
+        <p id="user_choice"> </p>
+        <p id="comp_choice"> </p>
+        <p id="result"></p>
+    </div>
+</div>
+
+
+<!--Script-->
+<script src="script.js"></script>
+</body>
+</html>
